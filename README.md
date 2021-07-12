@@ -1,11 +1,9 @@
-# Javier
+# readme-generator
 
-  > Author of project: Javier
+  > Author of project: Javier Dominguez II
 
-  ## Project Description
+  ## Description
   
-  > Javier
-  
-  ## Link to Deployed application if applicable
-  
-  [readme-generator] (https://javier)
+  > install inquirer
+  > use npm install if not installed yet
+  > followed by npm install inquirer
