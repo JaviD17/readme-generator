@@ -10,11 +10,26 @@ function renderLicenseLink(license) {}
 // If there is no license, return an empty string
 function renderLicenseSection(license) {}
 
-// TODO: Create a function to generate markdown for README
-function generateMarkdown(data) {
-  return `# ${data.title}
+const ifLink = (data) => {
+  if(data.confirmDeploy) {
+    return data.projectLink;
+  }
+  else {
+    return 'Sorry no link';
+  }
+};
 
-`;
-}
+module.exports = data => {
 
-module.exports = generateMarkdown;
+  return `# ${data.project}
+
+  > Author of project: ${data.name}
+
+  ## Project Description
+  
+  > ${data.description}
+  
+  ## Link to Deployed application if applicable
+  
+  [readme-generator] (https://${ifLink(data)})`
+};

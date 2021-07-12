@@ -1,0 +1,22 @@
+{
+  "name": "readme-generator",
+  "version": "1.0.0",
+  "description": "Profession README generator",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/JaviD17/readme-generator.git"
+  },
+  "author": "Javier Dominguez II",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/JaviD17/readme-generator/issues"
+  },
+  "homepage": "https://github.com/JaviD17/readme-generator#readme",
+  "dependencies": {
+    "inquirer": "^8.1.1"
+  }
+}
